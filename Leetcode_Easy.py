@@ -43,3 +43,8 @@ class Solution:
             if i in jewels:
                 count =count +1
         return count
+
+# 面试题58
+class Solution:
+    def reverseLeftWords(self, s: str, n: int) -> str:
+        if n
