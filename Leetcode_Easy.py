@@ -47,4 +47,16 @@ class Solution:
 # 面试题58
 class Solution:
     def reverseLeftWords(self, s: str, n: int) -> str:
-        if n
+        ans = ""
+        for i in range (n,len(s)):
+            ans +=s[i]
+        for i in range (n):
+            ans +=s[i]
+        return ans
+
+
+
+# No. 665 非递减函数
+class Solution:
+    def checkPossibility(self, nums: List[int]) -> bool:
+        
